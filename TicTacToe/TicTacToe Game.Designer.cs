@@ -100,6 +100,7 @@
             this.lowerleft_btn.Size = new System.Drawing.Size(75, 75);
             this.lowerleft_btn.TabIndex = 6;
             this.lowerleft_btn.UseVisualStyleBackColor = true;
+            this.lowerleft_btn.Click += new System.EventHandler(this.lowerleft_btn_Click);
             // 
             // lowermid_btn
             // 
