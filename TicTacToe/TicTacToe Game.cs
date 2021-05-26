@@ -16,5 +16,12 @@ namespace TicTacToe
         {
             InitializeComponent();
         }
+
+        int turn = 0;
+
+        private void upperleft_btn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
