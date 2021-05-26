@@ -118,6 +118,7 @@
             this.lowerright_btn.Size = new System.Drawing.Size(75, 75);
             this.lowerright_btn.TabIndex = 8;
             this.lowerright_btn.UseVisualStyleBackColor = true;
+            this.lowerright_btn.Click += new System.EventHandler(this.lowerright_btn_Click);
             // 
             // Form1
             // 
