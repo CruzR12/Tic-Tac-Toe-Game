@@ -162,5 +162,28 @@ namespace TicTacToe
                 lowerright_btn.Enabled = false;
             }
         }
+
+        private void reset_btn_Click(object sender, EventArgs e)
+        {
+            upperleft_btn.Text = "";
+                upperleft_btn.Enabled = true;
+            uppermid_btn.Text = "";
+                uppermid_btn.Enabled = true;
+            upperright_btn.Text = "";
+                upperright_btn.Enabled = true;
+            midleft_btn.Text = "";
+                midleft_btn.Enabled = true;
+            middle_btn.Text = "";
+                middle_btn.Enabled = true;
+            midright_btn.Text = "";
+                midright_btn.Enabled = true;
+            lowerleft_btn.Text = "";
+                lowerleft_btn.Enabled = true;
+            lowermid_btn.Text = "";
+                lowermid_btn.Enabled = true;
+            lowerright_btn.Text = "";
+                lowerright_btn.Enabled = true;
+
+        }
     }
 }

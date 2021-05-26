@@ -38,6 +38,7 @@
             this.lowermid_btn = new System.Windows.Forms.Button();
             this.lowerright_btn = new System.Windows.Forms.Button();
             this.p1_score = new System.Windows.Forms.TextBox();
+            this.reset_btn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // upperleft_btn
@@ -140,11 +141,22 @@
             this.p1_score.Size = new System.Drawing.Size(75, 31);
             this.p1_score.TabIndex = 9;
             // 
+            // reset_btn
+            // 
+            this.reset_btn.Location = new System.Drawing.Point(128, 395);
+            this.reset_btn.Name = "reset_btn";
+            this.reset_btn.Size = new System.Drawing.Size(75, 23);
+            this.reset_btn.TabIndex = 10;
+            this.reset_btn.Text = "Reset";
+            this.reset_btn.UseVisualStyleBackColor = true;
+            this.reset_btn.Click += new System.EventHandler(this.reset_btn_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(339, 373);
+            this.ClientSize = new System.Drawing.Size(339, 430);
+            this.Controls.Add(this.reset_btn);
             this.Controls.Add(this.p1_score);
             this.Controls.Add(this.lowerright_btn);
             this.Controls.Add(this.lowermid_btn);
@@ -174,6 +186,7 @@
         private System.Windows.Forms.Button lowermid_btn;
         private System.Windows.Forms.Button lowerright_btn;
         private System.Windows.Forms.TextBox p1_score;
+        private System.Windows.Forms.Button reset_btn;
     }
 }
 
