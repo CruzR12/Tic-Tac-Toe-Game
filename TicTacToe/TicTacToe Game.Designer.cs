@@ -64,6 +64,7 @@
             this.upperright_btn.Size = new System.Drawing.Size(75, 75);
             this.upperright_btn.TabIndex = 2;
             this.upperright_btn.UseVisualStyleBackColor = true;
+            this.upperright_btn.Click += new System.EventHandler(this.upperright_btn_Click);
             // 
             // midleft_btn
             // 
