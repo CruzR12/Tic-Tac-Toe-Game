@@ -60,5 +60,19 @@ namespace TicTacToe
                 turn -= 1;
             }
         }
+
+        private void midleft_btn_Click(object sender, EventArgs e)
+        {
+            if (turn == 0)
+            {
+                midleft_btn.Text = "X";
+                turn += 1;
+            }
+            else if (turn == 1)
+            {
+                midleft_btn.Text = "O";
+                turn -= 1;
+            }
+        }
     }
 }
