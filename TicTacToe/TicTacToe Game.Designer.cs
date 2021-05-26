@@ -35,6 +35,7 @@
             this.middle_btn = new System.Windows.Forms.Button();
             this.midright_btn = new System.Windows.Forms.Button();
             this.lowerleft_btn = new System.Windows.Forms.Button();
+            this.lowermid_btn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // upperleft_btn
@@ -93,11 +94,20 @@
             this.lowerleft_btn.TabIndex = 6;
             this.lowerleft_btn.UseVisualStyleBackColor = true;
             // 
+            // lowermid_btn
+            // 
+            this.lowermid_btn.Location = new System.Drawing.Point(128, 282);
+            this.lowermid_btn.Name = "lowermid_btn";
+            this.lowermid_btn.Size = new System.Drawing.Size(75, 75);
+            this.lowermid_btn.TabIndex = 7;
+            this.lowermid_btn.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(339, 373);
+            this.Controls.Add(this.lowermid_btn);
             this.Controls.Add(this.lowerleft_btn);
             this.Controls.Add(this.midright_btn);
             this.Controls.Add(this.middle_btn);
@@ -120,6 +130,7 @@
         private System.Windows.Forms.Button middle_btn;
         private System.Windows.Forms.Button midright_btn;
         private System.Windows.Forms.Button lowerleft_btn;
+        private System.Windows.Forms.Button lowermid_btn;
     }
 }
 
