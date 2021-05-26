@@ -37,10 +37,12 @@
             this.lowerleft_btn = new System.Windows.Forms.Button();
             this.lowermid_btn = new System.Windows.Forms.Button();
             this.lowerright_btn = new System.Windows.Forms.Button();
+            this.p1_score = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // upperleft_btn
             // 
+            this.upperleft_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
             this.upperleft_btn.Location = new System.Drawing.Point(31, 91);
             this.upperleft_btn.Name = "upperleft_btn";
             this.upperleft_btn.Size = new System.Drawing.Size(75, 75);
@@ -50,6 +52,7 @@
             // 
             // uppermid_btn
             // 
+            this.uppermid_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
             this.uppermid_btn.Location = new System.Drawing.Point(128, 91);
             this.uppermid_btn.Name = "uppermid_btn";
             this.uppermid_btn.Size = new System.Drawing.Size(75, 75);
@@ -59,6 +62,7 @@
             // 
             // upperright_btn
             // 
+            this.upperright_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
             this.upperright_btn.Location = new System.Drawing.Point(225, 91);
             this.upperright_btn.Name = "upperright_btn";
             this.upperright_btn.Size = new System.Drawing.Size(75, 75);
@@ -68,6 +72,7 @@
             // 
             // midleft_btn
             // 
+            this.midleft_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
             this.midleft_btn.Location = new System.Drawing.Point(31, 187);
             this.midleft_btn.Name = "midleft_btn";
             this.midleft_btn.Size = new System.Drawing.Size(75, 75);
@@ -77,6 +82,7 @@
             // 
             // middle_btn
             // 
+            this.middle_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
             this.middle_btn.Location = new System.Drawing.Point(128, 187);
             this.middle_btn.Name = "middle_btn";
             this.middle_btn.Size = new System.Drawing.Size(75, 75);
@@ -86,6 +92,7 @@
             // 
             // midright_btn
             // 
+            this.midright_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
             this.midright_btn.Location = new System.Drawing.Point(225, 187);
             this.midright_btn.Name = "midright_btn";
             this.midright_btn.Size = new System.Drawing.Size(75, 75);
@@ -95,6 +102,7 @@
             // 
             // lowerleft_btn
             // 
+            this.lowerleft_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
             this.lowerleft_btn.Location = new System.Drawing.Point(31, 282);
             this.lowerleft_btn.Name = "lowerleft_btn";
             this.lowerleft_btn.Size = new System.Drawing.Size(75, 75);
@@ -104,6 +112,7 @@
             // 
             // lowermid_btn
             // 
+            this.lowermid_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
             this.lowermid_btn.Location = new System.Drawing.Point(128, 282);
             this.lowermid_btn.Name = "lowermid_btn";
             this.lowermid_btn.Size = new System.Drawing.Size(75, 75);
@@ -113,6 +122,7 @@
             // 
             // lowerright_btn
             // 
+            this.lowerright_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
             this.lowerright_btn.Location = new System.Drawing.Point(225, 282);
             this.lowerright_btn.Name = "lowerright_btn";
             this.lowerright_btn.Size = new System.Drawing.Size(75, 75);
@@ -120,11 +130,22 @@
             this.lowerright_btn.UseVisualStyleBackColor = true;
             this.lowerright_btn.Click += new System.EventHandler(this.lowerright_btn_Click);
             // 
+            // p1_score
+            // 
+            this.p1_score.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.p1_score.Location = new System.Drawing.Point(31, 41);
+            this.p1_score.Multiline = true;
+            this.p1_score.Name = "p1_score";
+            this.p1_score.ReadOnly = true;
+            this.p1_score.Size = new System.Drawing.Size(75, 31);
+            this.p1_score.TabIndex = 9;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(339, 373);
+            this.Controls.Add(this.p1_score);
             this.Controls.Add(this.lowerright_btn);
             this.Controls.Add(this.lowermid_btn);
             this.Controls.Add(this.lowerleft_btn);
@@ -137,6 +158,7 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -151,6 +173,7 @@
         private System.Windows.Forms.Button lowerleft_btn;
         private System.Windows.Forms.Button lowermid_btn;
         private System.Windows.Forms.Button lowerright_btn;
+        private System.Windows.Forms.TextBox p1_score;
     }
 }
 

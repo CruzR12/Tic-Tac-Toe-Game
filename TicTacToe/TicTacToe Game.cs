@@ -25,11 +25,13 @@ namespace TicTacToe
             {
                 upperleft_btn.Text = "X";
                 turn += 1;
+                upperleft_btn.Enabled = false;
             }
             else if (turn == 1)
             {
                 upperleft_btn.Text = "O";
                 turn -= 1;
+                upperleft_btn.Enabled = false;
             }
         }
 
@@ -39,11 +41,13 @@ namespace TicTacToe
             {
                 uppermid_btn.Text = "X";
                 turn += 1;
+                uppermid_btn.Enabled = false;
             }
             else if (turn == 1)
             {
                 uppermid_btn.Text = "O";
                 turn -= 1;
+                uppermid_btn.Enabled = false;
             }
         }
 
@@ -53,11 +57,13 @@ namespace TicTacToe
             {
                 upperright_btn.Text = "X";
                 turn += 1;
+                upperright_btn.Enabled = false;
             }
             else if (turn == 1)
             {
                 upperright_btn.Text = "O";
                 turn -= 1;
+                upperright_btn.Enabled = false;
             }
         }
 
@@ -67,11 +73,13 @@ namespace TicTacToe
             {
                 midleft_btn.Text = "X";
                 turn += 1;
+                midleft_btn.Enabled = false;
             }
             else if (turn == 1)
             {
                 midleft_btn.Text = "O";
                 turn -= 1;
+                midleft_btn.Enabled = false;
             }
         }
 
@@ -81,11 +89,13 @@ namespace TicTacToe
             {
                 middle_btn.Text = "X";
                 turn += 1;
+                middle_btn.Enabled = false;
             }
             else if (turn == 1)
             {
                 middle_btn.Text = "O";
                 turn -= 1;
+                middle_btn.Enabled = false;
             }
         }
 
@@ -95,11 +105,13 @@ namespace TicTacToe
             {
                 midright_btn.Text = "X";
                 turn += 1;
+                midright_btn.Enabled = false;
             }
             else if (turn == 1)
             {
                 midright_btn.Text = "O";
                 turn -= 1;
+                midright_btn.Enabled = false;
             }
         }
 
@@ -109,11 +121,13 @@ namespace TicTacToe
             {
                 lowerleft_btn.Text = "X";
                 turn += 1;
+                lowerleft_btn.Enabled = false;
             }
             else if (turn == 1)
             {
                 lowerleft_btn.Text = "O";
                 turn -= 1;
+                lowerleft_btn.Enabled = false;
             }
         }
 
@@ -123,11 +137,13 @@ namespace TicTacToe
             {
                 lowermid_btn.Text = "X";
                 turn += 1;
+                lowermid_btn.Enabled = false;
             }
             else if (turn == 1)
             {
                 lowermid_btn.Text = "O";
                 turn -= 1;
+                lowermid_btn.Enabled = false;
             }
         }
 
@@ -137,11 +153,13 @@ namespace TicTacToe
             {
                 lowerright_btn.Text = "X";
                 turn += 1;
+                lowerright_btn.Enabled = false;
             }
             else if (turn == 1)
             {
                 lowerright_btn.Text = "O";
                 turn -= 1;
+                lowerright_btn.Enabled = false;
             }
         }
     }
