@@ -55,6 +55,7 @@
             this.uppermid_btn.Size = new System.Drawing.Size(75, 75);
             this.uppermid_btn.TabIndex = 1;
             this.uppermid_btn.UseVisualStyleBackColor = true;
+            this.uppermid_btn.Click += new System.EventHandler(this.uppermid_btn_Click);
             // 
             // upperright_btn
             // 
