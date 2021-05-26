@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.upperleft_btn = new System.Windows.Forms.Button();
+            this.uppermid_btn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // upperleft_btn
@@ -39,11 +40,20 @@
             this.upperleft_btn.TabIndex = 0;
             this.upperleft_btn.UseVisualStyleBackColor = true;
             // 
+            // uppermid_btn
+            // 
+            this.uppermid_btn.Location = new System.Drawing.Point(128, 91);
+            this.uppermid_btn.Name = "uppermid_btn";
+            this.uppermid_btn.Size = new System.Drawing.Size(75, 75);
+            this.uppermid_btn.TabIndex = 1;
+            this.uppermid_btn.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(339, 373);
+            this.Controls.Add(this.uppermid_btn);
             this.Controls.Add(this.upperleft_btn);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -54,6 +64,7 @@
         #endregion
 
         private System.Windows.Forms.Button upperleft_btn;
+        private System.Windows.Forms.Button uppermid_btn;
     }
 }
 
