@@ -274,6 +274,17 @@ namespace TicTacToe
                 winner = true;
             }
 
+            //Diagonal winner checker
+            if ((upperleft_btn.Text == middle_btn.Text) && (middle_btn.Text == lowerright_btn.Text) && (!upperleft_btn.Enabled))
+            {
+                winner = true;
+            }
+
+            if ((lowerleft_btn.Text == middle_btn.Text) && (middle_btn.Text == upperright_btn.Text) && (!lowerleft_btn.Enabled))
+            {
+                winner = true;
+            }
+
             //winner message code
             if (winner)
             {
