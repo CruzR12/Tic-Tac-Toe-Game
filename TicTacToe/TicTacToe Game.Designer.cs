@@ -39,6 +39,9 @@
             this.lowerright_btn = new System.Windows.Forms.Button();
             this.reset_btn = new System.Windows.Forms.Button();
             this.p1_score = new System.Windows.Forms.TextBox();
+            this.p2_score = new System.Windows.Forms.TextBox();
+            this.X_score = new System.Windows.Forms.Label();
+            this.O_score = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // upperleft_btn
@@ -143,19 +146,56 @@
             // 
             // p1_score
             // 
-            this.p1_score.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.p1_score.Location = new System.Drawing.Point(31, 41);
-            this.p1_score.Multiline = true;
+            this.p1_score.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.p1_score.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.p1_score.Location = new System.Drawing.Point(31, 47);
             this.p1_score.Name = "p1_score";
             this.p1_score.ReadOnly = true;
-            this.p1_score.Size = new System.Drawing.Size(75, 31);
+            this.p1_score.Size = new System.Drawing.Size(75, 16);
             this.p1_score.TabIndex = 9;
+            this.p1_score.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // p2_score
+            // 
+            this.p2_score.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.p2_score.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.p2_score.Location = new System.Drawing.Point(225, 47);
+            this.p2_score.Name = "p2_score";
+            this.p2_score.ReadOnly = true;
+            this.p2_score.Size = new System.Drawing.Size(75, 16);
+            this.p2_score.TabIndex = 11;
+            this.p2_score.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // X_score
+            // 
+            this.X_score.AutoSize = true;
+            this.X_score.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.X_score.Location = new System.Drawing.Point(37, 26);
+            this.X_score.Name = "X_score";
+            this.X_score.Size = new System.Drawing.Size(67, 20);
+            this.X_score.TabIndex = 12;
+            this.X_score.Text = "X score:";
+            this.X_score.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // O_score
+            // 
+            this.O_score.AutoSize = true;
+            this.O_score.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.O_score.Location = new System.Drawing.Point(229, 26);
+            this.O_score.Name = "O_score";
+            this.O_score.Size = new System.Drawing.Size(68, 20);
+            this.O_score.TabIndex = 13;
+            this.O_score.Text = "O score:";
+            this.O_score.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(339, 430);
+            this.Controls.Add(this.O_score);
+            this.Controls.Add(this.X_score);
+            this.Controls.Add(this.p2_score);
             this.Controls.Add(this.reset_btn);
             this.Controls.Add(this.p1_score);
             this.Controls.Add(this.lowerright_btn);
@@ -187,6 +227,9 @@
         private System.Windows.Forms.Button lowerright_btn;
         private System.Windows.Forms.Button reset_btn;
         private System.Windows.Forms.TextBox p1_score;
+        private System.Windows.Forms.TextBox p2_score;
+        private System.Windows.Forms.Label X_score;
+        private System.Windows.Forms.Label O_score;
     }
 }
 

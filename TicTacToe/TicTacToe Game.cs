@@ -212,6 +212,8 @@ namespace TicTacToe
             lowerright_btn.Enabled = true;
             counter = 0;
             turn = 0;
+            p1_score.Text = "";
+            p2_score.Text = "";
         }
 
         bool winner = false;
@@ -219,7 +221,7 @@ namespace TicTacToe
         {
             if (counter == 9)
             {
-                MessageBox.Show("Game is draw, please try again.");
+                MessageBox.Show("Game is draw, please try again.", "Aw :<");
                 upperleft_btn.Text = "";
                 upperleft_btn.Enabled = true;
                 uppermid_btn.Text = "";
@@ -290,7 +292,7 @@ namespace TicTacToe
             {
                 if (turn == 1)
                 {
-                    MessageBox.Show("X player won! Yehey!");
+                    MessageBox.Show("X player won!", "Yehey! :>");
                     upperleft_btn.Text = "";
                     upperleft_btn.Enabled = true;
                     uppermid_btn.Text = "";
@@ -312,10 +314,12 @@ namespace TicTacToe
                     counter = 0;
                     turn = 0;
                     winner = false;
+                    p1_score.Text += "I";
+                    
                 }
                 else if (turn == 0)
                 {
-                    MessageBox.Show("O player won! Yehey!");
+                    MessageBox.Show("O player won!", "Yehey! :>");
                     upperleft_btn.Text = "";
                     upperleft_btn.Enabled = true;
                     uppermid_btn.Text = "";
@@ -337,6 +341,7 @@ namespace TicTacToe
                     counter = 0;
                     turn = 0;
                     winner = false;
+                    p2_score.Text += "I";
 
                 }
             }
