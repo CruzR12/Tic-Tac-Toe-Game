@@ -47,7 +47,7 @@
             // upperleft_btn
             // 
             this.upperleft_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
-            this.upperleft_btn.Location = new System.Drawing.Point(31, 91);
+            this.upperleft_btn.Location = new System.Drawing.Point(41, 91);
             this.upperleft_btn.Name = "upperleft_btn";
             this.upperleft_btn.Size = new System.Drawing.Size(75, 75);
             this.upperleft_btn.TabIndex = 0;
@@ -67,7 +67,7 @@
             // upperright_btn
             // 
             this.upperright_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
-            this.upperright_btn.Location = new System.Drawing.Point(225, 91);
+            this.upperright_btn.Location = new System.Drawing.Point(215, 91);
             this.upperright_btn.Name = "upperright_btn";
             this.upperright_btn.Size = new System.Drawing.Size(75, 75);
             this.upperright_btn.TabIndex = 2;
@@ -77,7 +77,7 @@
             // midleft_btn
             // 
             this.midleft_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
-            this.midleft_btn.Location = new System.Drawing.Point(31, 187);
+            this.midleft_btn.Location = new System.Drawing.Point(41, 172);
             this.midleft_btn.Name = "midleft_btn";
             this.midleft_btn.Size = new System.Drawing.Size(75, 75);
             this.midleft_btn.TabIndex = 3;
@@ -87,7 +87,7 @@
             // middle_btn
             // 
             this.middle_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
-            this.middle_btn.Location = new System.Drawing.Point(128, 187);
+            this.middle_btn.Location = new System.Drawing.Point(128, 172);
             this.middle_btn.Name = "middle_btn";
             this.middle_btn.Size = new System.Drawing.Size(75, 75);
             this.middle_btn.TabIndex = 4;
@@ -97,7 +97,7 @@
             // midright_btn
             // 
             this.midright_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
-            this.midright_btn.Location = new System.Drawing.Point(225, 187);
+            this.midright_btn.Location = new System.Drawing.Point(215, 172);
             this.midright_btn.Name = "midright_btn";
             this.midright_btn.Size = new System.Drawing.Size(75, 75);
             this.midright_btn.TabIndex = 5;
@@ -107,7 +107,7 @@
             // lowerleft_btn
             // 
             this.lowerleft_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
-            this.lowerleft_btn.Location = new System.Drawing.Point(31, 282);
+            this.lowerleft_btn.Location = new System.Drawing.Point(41, 253);
             this.lowerleft_btn.Name = "lowerleft_btn";
             this.lowerleft_btn.Size = new System.Drawing.Size(75, 75);
             this.lowerleft_btn.TabIndex = 6;
@@ -117,7 +117,7 @@
             // lowermid_btn
             // 
             this.lowermid_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
-            this.lowermid_btn.Location = new System.Drawing.Point(128, 282);
+            this.lowermid_btn.Location = new System.Drawing.Point(128, 253);
             this.lowermid_btn.Name = "lowermid_btn";
             this.lowermid_btn.Size = new System.Drawing.Size(75, 75);
             this.lowermid_btn.TabIndex = 7;
@@ -127,7 +127,7 @@
             // lowerright_btn
             // 
             this.lowerright_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
-            this.lowerright_btn.Location = new System.Drawing.Point(225, 282);
+            this.lowerright_btn.Location = new System.Drawing.Point(215, 253);
             this.lowerright_btn.Name = "lowerright_btn";
             this.lowerright_btn.Size = new System.Drawing.Size(75, 75);
             this.lowerright_btn.TabIndex = 8;
@@ -136,7 +136,7 @@
             // 
             // reset_btn
             // 
-            this.reset_btn.Location = new System.Drawing.Point(128, 395);
+            this.reset_btn.Location = new System.Drawing.Point(128, 371);
             this.reset_btn.Name = "reset_btn";
             this.reset_btn.Size = new System.Drawing.Size(75, 23);
             this.reset_btn.TabIndex = 10;
