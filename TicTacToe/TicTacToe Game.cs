@@ -241,6 +241,75 @@ namespace TicTacToe
                 counter = 0;
                 turn = 0;
             }
+            if ((upperleft_btn.Text == uppermid_btn.Text) && (uppermid_btn.Text == upperright_btn.Text) && (!upperleft_btn.Enabled))
+            {
+                winner = true;
+            }
+
+            if ((midleft_btn.Text == middle_btn.Text) && (middle_btn.Text == midright_btn.Text) && (!midleft_btn.Enabled))
+            {
+                winner = true;
+            }
+
+            if ((lowerleft_btn.Text == lowermid_btn.Text) && (lowermid_btn.Text == lowerright_btn.Text) && (!lowerleft_btn.Enabled))
+            {
+                winner = true;
+            }
+
+            if (winner)
+            {
+                if (turn == 1)
+                {
+                    MessageBox.Show("X player won! Yehey!");
+                    upperleft_btn.Text = "";
+                    upperleft_btn.Enabled = true;
+                    uppermid_btn.Text = "";
+                    uppermid_btn.Enabled = true;
+                    upperright_btn.Text = "";
+                    upperright_btn.Enabled = true;
+                    midleft_btn.Text = "";
+                    midleft_btn.Enabled = true;
+                    middle_btn.Text = "";
+                    middle_btn.Enabled = true;
+                    midright_btn.Text = "";
+                    midright_btn.Enabled = true;
+                    lowerleft_btn.Text = "";
+                    lowerleft_btn.Enabled = true;
+                    lowermid_btn.Text = "";
+                    lowermid_btn.Enabled = true;
+                    lowerright_btn.Text = "";
+                    lowerright_btn.Enabled = true;
+                    counter = 0;
+                    turn = 0;
+                    winner = false;
+                }
+                else if (turn == 0)
+                {
+                    MessageBox.Show("O player won! Yehey!");
+                    upperleft_btn.Text = "";
+                    upperleft_btn.Enabled = true;
+                    uppermid_btn.Text = "";
+                    uppermid_btn.Enabled = true;
+                    upperright_btn.Text = "";
+                    upperright_btn.Enabled = true;
+                    midleft_btn.Text = "";
+                    midleft_btn.Enabled = true;
+                    middle_btn.Text = "";
+                    middle_btn.Enabled = true;
+                    midright_btn.Text = "";
+                    midright_btn.Enabled = true;
+                    lowerleft_btn.Text = "";
+                    lowerleft_btn.Enabled = true;
+                    lowermid_btn.Text = "";
+                    lowermid_btn.Enabled = true;
+                    lowerright_btn.Text = "";
+                    lowerright_btn.Enabled = true;
+                    counter = 0;
+                    turn = 0;
+                    winner = false;
+
+                }
+            }
         }
     }
 }

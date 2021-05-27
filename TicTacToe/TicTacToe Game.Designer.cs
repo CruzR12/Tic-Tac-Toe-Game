@@ -37,8 +37,8 @@
             this.lowerleft_btn = new System.Windows.Forms.Button();
             this.lowermid_btn = new System.Windows.Forms.Button();
             this.lowerright_btn = new System.Windows.Forms.Button();
-            this.p1_score = new System.Windows.Forms.TextBox();
             this.reset_btn = new System.Windows.Forms.Button();
+            this.p1_score = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // upperleft_btn
@@ -131,16 +131,6 @@
             this.lowerright_btn.UseVisualStyleBackColor = true;
             this.lowerright_btn.Click += new System.EventHandler(this.lowerright_btn_Click);
             // 
-            // p1_score
-            // 
-            this.p1_score.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.p1_score.Location = new System.Drawing.Point(31, 41);
-            this.p1_score.Multiline = true;
-            this.p1_score.Name = "p1_score";
-            this.p1_score.ReadOnly = true;
-            this.p1_score.Size = new System.Drawing.Size(75, 31);
-            this.p1_score.TabIndex = 9;
-            // 
             // reset_btn
             // 
             this.reset_btn.Location = new System.Drawing.Point(128, 395);
@@ -150,6 +140,16 @@
             this.reset_btn.Text = "Reset";
             this.reset_btn.UseVisualStyleBackColor = true;
             this.reset_btn.Click += new System.EventHandler(this.reset_btn_Click);
+            // 
+            // p1_score
+            // 
+            this.p1_score.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.p1_score.Location = new System.Drawing.Point(31, 41);
+            this.p1_score.Multiline = true;
+            this.p1_score.Name = "p1_score";
+            this.p1_score.ReadOnly = true;
+            this.p1_score.Size = new System.Drawing.Size(75, 31);
+            this.p1_score.TabIndex = 9;
             // 
             // Form1
             // 
@@ -185,8 +185,8 @@
         private System.Windows.Forms.Button lowerleft_btn;
         private System.Windows.Forms.Button lowermid_btn;
         private System.Windows.Forms.Button lowerright_btn;
-        private System.Windows.Forms.TextBox p1_score;
         private System.Windows.Forms.Button reset_btn;
+        private System.Windows.Forms.TextBox p1_score;
     }
 }
 
