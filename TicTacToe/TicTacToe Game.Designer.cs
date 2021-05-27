@@ -208,7 +208,7 @@
             this.Controls.Add(this.uppermid_btn);
             this.Controls.Add(this.upperleft_btn);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Tic Tac Toe Game";
             this.ResumeLayout(false);
             this.PerformLayout();
 
