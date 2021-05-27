@@ -241,6 +241,8 @@ namespace TicTacToe
                 counter = 0;
                 turn = 0;
             }
+
+            //Horizontal winner checker
             if ((upperleft_btn.Text == uppermid_btn.Text) && (uppermid_btn.Text == upperright_btn.Text) && (!upperleft_btn.Enabled))
             {
                 winner = true;
@@ -256,6 +258,23 @@ namespace TicTacToe
                 winner = true;
             }
 
+            //Vertical winner checker
+            if ((upperleft_btn.Text == midleft_btn.Text) && (midleft_btn.Text == lowerleft_btn.Text) && (!upperleft_btn.Enabled))
+            {
+                winner = true;
+            }
+
+            if ((uppermid_btn.Text == middle_btn.Text) && (middle_btn.Text == lowermid_btn.Text) && (!uppermid_btn.Enabled))
+            {
+                winner = true;
+            }
+
+            if ((upperright_btn.Text == midright_btn.Text) && (midright_btn.Text == lowerright_btn.Text) && (!upperright_btn.Enabled))
+            {
+                winner = true;
+            }
+
+            //winner message code
             if (winner)
             {
                 if (turn == 1)
