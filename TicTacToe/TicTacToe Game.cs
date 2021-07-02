@@ -228,7 +228,6 @@ namespace TicTacToe
                 uppermid_btn.BackColor = Color.Red;
                 upperright_btn.BackColor = Color.Red;
             }
-
             if ((midleft_btn.Text == middle_btn.Text) && (middle_btn.Text == midright_btn.Text) && (!midleft_btn.Enabled))
             {
                 winner = true;
@@ -236,7 +235,6 @@ namespace TicTacToe
                 middle_btn.BackColor = Color.Red;
                 midright_btn.BackColor = Color.Red;
             }
-
             if ((lowerleft_btn.Text == lowermid_btn.Text) && (lowermid_btn.Text == lowerright_btn.Text) && (!lowerleft_btn.Enabled))
             {
                 winner = true;
@@ -253,7 +251,6 @@ namespace TicTacToe
                 midleft_btn.BackColor = Color.Red;
                 lowerleft_btn.BackColor = Color.Red;
             }
-
             if ((uppermid_btn.Text == middle_btn.Text) && (middle_btn.Text == lowermid_btn.Text) && (!uppermid_btn.Enabled))
             {
                 winner = true;
@@ -261,7 +258,6 @@ namespace TicTacToe
                 middle_btn.BackColor = Color.Red;
                 lowermid_btn.BackColor = Color.Red;
             }
-
             if ((upperright_btn.Text == midright_btn.Text) && (midright_btn.Text == lowerright_btn.Text) && (!upperright_btn.Enabled))
             {
                 winner = true;
@@ -278,7 +274,6 @@ namespace TicTacToe
                 middle_btn.BackColor = Color.Red;
                 lowerright_btn.BackColor = Color.Red;
             }
-
             if ((lowerleft_btn.Text == middle_btn.Text) && (middle_btn.Text == upperright_btn.Text) && (!lowerleft_btn.Enabled))
             {
                 winner = true;
@@ -314,8 +309,7 @@ namespace TicTacToe
                     counter = 0;
                     turn = 0;
                     winner = false;
-                    p1_score.Text += "I";
-                    
+                    p1_score.Text += "I";  
                 }
                 else if (turn == 0)
                 {
@@ -342,10 +336,8 @@ namespace TicTacToe
                     turn = 0;
                     winner = false;
                     p2_score.Text += "I";
-
                 }
             }
-
             //draw checker
             if (counter == 9)
             {
@@ -371,7 +363,6 @@ namespace TicTacToe
                 counter = 0;
                 turn = 0;
             }
-
             //reset color
             upperleft_btn.BackColor = Color.OldLace;
             uppermid_btn.BackColor = Color.OldLace;
