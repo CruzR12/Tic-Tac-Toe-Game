@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.upperleft_btn = new System.Windows.Forms.Button();
             this.uppermid_btn = new System.Windows.Forms.Button();
             this.upperright_btn = new System.Windows.Forms.Button();
@@ -46,92 +47,101 @@
             // 
             // upperleft_btn
             // 
+            this.upperleft_btn.BackColor = System.Drawing.Color.OldLace;
             this.upperleft_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
             this.upperleft_btn.Location = new System.Drawing.Point(41, 91);
             this.upperleft_btn.Name = "upperleft_btn";
             this.upperleft_btn.Size = new System.Drawing.Size(75, 75);
             this.upperleft_btn.TabIndex = 0;
-            this.upperleft_btn.UseVisualStyleBackColor = true;
+            this.upperleft_btn.UseVisualStyleBackColor = false;
             this.upperleft_btn.Click += new System.EventHandler(this.upperleft_btn_Click);
             // 
             // uppermid_btn
             // 
+            this.uppermid_btn.BackColor = System.Drawing.Color.OldLace;
             this.uppermid_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
             this.uppermid_btn.Location = new System.Drawing.Point(128, 91);
             this.uppermid_btn.Name = "uppermid_btn";
             this.uppermid_btn.Size = new System.Drawing.Size(75, 75);
             this.uppermid_btn.TabIndex = 1;
-            this.uppermid_btn.UseVisualStyleBackColor = true;
+            this.uppermid_btn.UseVisualStyleBackColor = false;
             this.uppermid_btn.Click += new System.EventHandler(this.uppermid_btn_Click);
             // 
             // upperright_btn
             // 
+            this.upperright_btn.BackColor = System.Drawing.Color.OldLace;
             this.upperright_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
             this.upperright_btn.Location = new System.Drawing.Point(215, 91);
             this.upperright_btn.Name = "upperright_btn";
             this.upperright_btn.Size = new System.Drawing.Size(75, 75);
             this.upperright_btn.TabIndex = 2;
-            this.upperright_btn.UseVisualStyleBackColor = true;
+            this.upperright_btn.UseVisualStyleBackColor = false;
             this.upperright_btn.Click += new System.EventHandler(this.upperright_btn_Click);
             // 
             // midleft_btn
             // 
+            this.midleft_btn.BackColor = System.Drawing.Color.OldLace;
             this.midleft_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
             this.midleft_btn.Location = new System.Drawing.Point(41, 172);
             this.midleft_btn.Name = "midleft_btn";
             this.midleft_btn.Size = new System.Drawing.Size(75, 75);
             this.midleft_btn.TabIndex = 3;
-            this.midleft_btn.UseVisualStyleBackColor = true;
+            this.midleft_btn.UseVisualStyleBackColor = false;
             this.midleft_btn.Click += new System.EventHandler(this.midleft_btn_Click);
             // 
             // middle_btn
             // 
+            this.middle_btn.BackColor = System.Drawing.Color.OldLace;
             this.middle_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
             this.middle_btn.Location = new System.Drawing.Point(128, 172);
             this.middle_btn.Name = "middle_btn";
             this.middle_btn.Size = new System.Drawing.Size(75, 75);
             this.middle_btn.TabIndex = 4;
-            this.middle_btn.UseVisualStyleBackColor = true;
+            this.middle_btn.UseVisualStyleBackColor = false;
             this.middle_btn.Click += new System.EventHandler(this.middle_btn_Click);
             // 
             // midright_btn
             // 
+            this.midright_btn.BackColor = System.Drawing.Color.OldLace;
             this.midright_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
             this.midright_btn.Location = new System.Drawing.Point(215, 172);
             this.midright_btn.Name = "midright_btn";
             this.midright_btn.Size = new System.Drawing.Size(75, 75);
             this.midright_btn.TabIndex = 5;
-            this.midright_btn.UseVisualStyleBackColor = true;
+            this.midright_btn.UseVisualStyleBackColor = false;
             this.midright_btn.Click += new System.EventHandler(this.midright_btn_Click);
             // 
             // lowerleft_btn
             // 
+            this.lowerleft_btn.BackColor = System.Drawing.Color.OldLace;
             this.lowerleft_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
             this.lowerleft_btn.Location = new System.Drawing.Point(41, 253);
             this.lowerleft_btn.Name = "lowerleft_btn";
             this.lowerleft_btn.Size = new System.Drawing.Size(75, 75);
             this.lowerleft_btn.TabIndex = 6;
-            this.lowerleft_btn.UseVisualStyleBackColor = true;
+            this.lowerleft_btn.UseVisualStyleBackColor = false;
             this.lowerleft_btn.Click += new System.EventHandler(this.lowerleft_btn_Click);
             // 
             // lowermid_btn
             // 
+            this.lowermid_btn.BackColor = System.Drawing.Color.OldLace;
             this.lowermid_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
             this.lowermid_btn.Location = new System.Drawing.Point(128, 253);
             this.lowermid_btn.Name = "lowermid_btn";
             this.lowermid_btn.Size = new System.Drawing.Size(75, 75);
             this.lowermid_btn.TabIndex = 7;
-            this.lowermid_btn.UseVisualStyleBackColor = true;
+            this.lowermid_btn.UseVisualStyleBackColor = false;
             this.lowermid_btn.Click += new System.EventHandler(this.lowermid_btn_Click);
             // 
             // lowerright_btn
             // 
+            this.lowerright_btn.BackColor = System.Drawing.Color.OldLace;
             this.lowerright_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
             this.lowerright_btn.Location = new System.Drawing.Point(215, 253);
             this.lowerright_btn.Name = "lowerright_btn";
             this.lowerright_btn.Size = new System.Drawing.Size(75, 75);
             this.lowerright_btn.TabIndex = 8;
-            this.lowerright_btn.UseVisualStyleBackColor = true;
+            this.lowerright_btn.UseVisualStyleBackColor = false;
             this.lowerright_btn.Click += new System.EventHandler(this.lowerright_btn_Click);
             // 
             // reset_btn
@@ -147,22 +157,24 @@
             // p1_score
             // 
             this.p1_score.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.p1_score.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.p1_score.Enabled = false;
+            this.p1_score.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.p1_score.Location = new System.Drawing.Point(31, 47);
             this.p1_score.Name = "p1_score";
             this.p1_score.ReadOnly = true;
-            this.p1_score.Size = new System.Drawing.Size(75, 16);
+            this.p1_score.Size = new System.Drawing.Size(75, 15);
             this.p1_score.TabIndex = 9;
             this.p1_score.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // p2_score
             // 
             this.p2_score.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.p2_score.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.p2_score.Enabled = false;
+            this.p2_score.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.p2_score.Location = new System.Drawing.Point(225, 47);
             this.p2_score.Name = "p2_score";
             this.p2_score.ReadOnly = true;
-            this.p2_score.Size = new System.Drawing.Size(75, 16);
+            this.p2_score.Size = new System.Drawing.Size(75, 15);
             this.p2_score.TabIndex = 11;
             this.p2_score.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -207,6 +219,7 @@
             this.Controls.Add(this.upperright_btn);
             this.Controls.Add(this.uppermid_btn);
             this.Controls.Add(this.upperleft_btn);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Tic Tac Toe Game";
             this.ResumeLayout(false);

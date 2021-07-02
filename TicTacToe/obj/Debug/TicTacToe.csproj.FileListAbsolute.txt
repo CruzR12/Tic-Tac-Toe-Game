@@ -7,3 +7,12 @@ C:\Users\cruzr\Documents\Visual Studio 2015\Projects\TicTacToe\TicTacToe\obj\Deb
 C:\Users\cruzr\Documents\Visual Studio 2015\Projects\TicTacToe\TicTacToe\obj\Debug\TicTacToe.Properties.Resources.resources
 C:\Users\cruzr\Documents\Visual Studio 2015\Projects\TicTacToe\TicTacToe\obj\Debug\TicTacToe.Form1.resources
 C:\Users\cruzr\Documents\Visual Studio 2015\Projects\TicTacToe\TicTacToe\obj\Debug\TicTacToe.csproj.GenerateResource.Cache
+C:\Users\cruzr\Source\Repos\Tic-Tac-Toe-Game\TicTacToe\bin\Debug\TicTacToe.exe.config
+C:\Users\cruzr\Source\Repos\Tic-Tac-Toe-Game\TicTacToe\obj\Debug\TicTacToe.exe
+C:\Users\cruzr\Source\Repos\Tic-Tac-Toe-Game\TicTacToe\obj\Debug\TicTacToe.pdb
+C:\Users\cruzr\Source\Repos\Tic-Tac-Toe-Game\TicTacToe\bin\Debug\TicTacToe.exe
+C:\Users\cruzr\Source\Repos\Tic-Tac-Toe-Game\TicTacToe\bin\Debug\TicTacToe.pdb
+C:\Users\cruzr\Source\Repos\Tic-Tac-Toe-Game\TicTacToe\obj\Debug\TicTacToe.csprojResolveAssemblyReference.cache
+C:\Users\cruzr\Source\Repos\Tic-Tac-Toe-Game\TicTacToe\obj\Debug\TicTacToe.Properties.Resources.resources
+C:\Users\cruzr\Source\Repos\Tic-Tac-Toe-Game\TicTacToe\obj\Debug\TicTacToe.Form1.resources
+C:\Users\cruzr\Source\Repos\Tic-Tac-Toe-Game\TicTacToe\obj\Debug\TicTacToe.csproj.GenerateResource.Cache

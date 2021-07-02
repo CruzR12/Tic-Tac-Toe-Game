@@ -15,6 +15,7 @@ namespace TicTacToe
         {
             InitializeComponent();
         }
+
         int turn = 0;
         int counter = 0;
 
@@ -223,43 +224,67 @@ namespace TicTacToe
             if ((upperleft_btn.Text == uppermid_btn.Text) && (uppermid_btn.Text == upperright_btn.Text) && (!upperleft_btn.Enabled))
             {
                 winner = true;
+                upperleft_btn.BackColor = Color.Red;
+                uppermid_btn.BackColor = Color.Red;
+                upperright_btn.BackColor = Color.Red;
             }
 
             if ((midleft_btn.Text == middle_btn.Text) && (middle_btn.Text == midright_btn.Text) && (!midleft_btn.Enabled))
             {
                 winner = true;
+                midleft_btn.BackColor = Color.Red;
+                middle_btn.BackColor = Color.Red;
+                midright_btn.BackColor = Color.Red;
             }
 
             if ((lowerleft_btn.Text == lowermid_btn.Text) && (lowermid_btn.Text == lowerright_btn.Text) && (!lowerleft_btn.Enabled))
             {
                 winner = true;
+                lowerleft_btn.BackColor = Color.Red;
+                lowermid_btn.BackColor = Color.Red;
+                lowerright_btn.BackColor = Color.Red;
             }
 
             //Vertical winner checker
             if ((upperleft_btn.Text == midleft_btn.Text) && (midleft_btn.Text == lowerleft_btn.Text) && (!upperleft_btn.Enabled))
             {
                 winner = true;
+                upperleft_btn.BackColor = Color.Red;
+                midleft_btn.BackColor = Color.Red;
+                lowerleft_btn.BackColor = Color.Red;
             }
 
             if ((uppermid_btn.Text == middle_btn.Text) && (middle_btn.Text == lowermid_btn.Text) && (!uppermid_btn.Enabled))
             {
                 winner = true;
+                uppermid_btn.BackColor = Color.Red;
+                middle_btn.BackColor = Color.Red;
+                lowermid_btn.BackColor = Color.Red;
             }
 
             if ((upperright_btn.Text == midright_btn.Text) && (midright_btn.Text == lowerright_btn.Text) && (!upperright_btn.Enabled))
             {
                 winner = true;
+                upperright_btn.BackColor = Color.Red;
+                midright_btn.BackColor = Color.Red;
+                lowerright_btn.BackColor = Color.Red;
             }
 
             //Diagonal winner checker
             if ((upperleft_btn.Text == middle_btn.Text) && (middle_btn.Text == lowerright_btn.Text) && (!upperleft_btn.Enabled))
             {
                 winner = true;
+                upperleft_btn.BackColor = Color.Red;
+                middle_btn.BackColor = Color.Red;
+                lowerright_btn.BackColor = Color.Red;
             }
 
             if ((lowerleft_btn.Text == middle_btn.Text) && (middle_btn.Text == upperright_btn.Text) && (!lowerleft_btn.Enabled))
             {
                 winner = true;
+                lowerleft_btn.BackColor = Color.Red;
+                middle_btn.BackColor = Color.Red;
+                upperright_btn.BackColor = Color.Red;
             }
 
             //winner message code
@@ -346,6 +371,17 @@ namespace TicTacToe
                 counter = 0;
                 turn = 0;
             }
+
+            //reset color
+            upperleft_btn.BackColor = Color.OldLace;
+            uppermid_btn.BackColor = Color.OldLace;
+            upperright_btn.BackColor = Color.OldLace;
+            midleft_btn.BackColor = Color.OldLace;
+            middle_btn.BackColor = Color.OldLace;
+            midright_btn.BackColor = Color.OldLace;
+            lowerleft_btn.BackColor = Color.OldLace;
+            lowermid_btn.BackColor = Color.OldLace;
+            lowerright_btn.BackColor = Color.OldLace;
         }
     }
 }
