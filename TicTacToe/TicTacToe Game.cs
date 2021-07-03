@@ -18,6 +18,7 @@ namespace TicTacToe
 
         int turn = 0;
         int counter = 0;
+        bool winner = false;
 
         private void upperleft_btn_Click(object sender, EventArgs e)
         {
@@ -217,7 +218,6 @@ namespace TicTacToe
             p2_score.Text = "";
         }
 
-        bool winner = false;
         private void checkforwinner()
         {
             //Horizontal winner checker
