@@ -220,6 +220,7 @@
             this.Controls.Add(this.uppermid_btn);
             this.Controls.Add(this.upperleft_btn);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Tic Tac Toe Game";
             this.ResumeLayout(false);
